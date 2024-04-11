@@ -16,13 +16,14 @@ function RecipeItem({recipe}) {
           </Card.Description>
 </Card.Content>
           <Card.Content>
+            
             <Button
             as={Link}
             to={`/recipe/${recipe.recipe_id}`}
             content="Details"
             color="blue"
             size="tiny"
-            className='my-3'
+            style={{margin:3}}
              />
             <Button
             href={recipe.source_url}
@@ -30,7 +31,7 @@ function RecipeItem({recipe}) {
             content="Recipe Source"
             color="green"
             size="tiny"
-            className='my-3'
+            style={{margin:3}}
              />
           </Card.Content>
         
