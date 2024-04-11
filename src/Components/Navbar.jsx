@@ -8,7 +8,7 @@ function Navbar() {
     <Menu borderless fixed="top">
       <Link to="/">
         <Menu.Item>
-          <img src={logo} alt="logo" /> <span className="hidden"><Menu.Item>Wobot.ai Recipes</Menu.Item></span>
+          <img src={logo} alt="logo" /> <span className="hidden lg:block"><Menu.Item>Wobot.ai Recipes</Menu.Item></span>
         </Menu.Item>
       </Link>
       <Menu.Item name="Home" as={Link} to="/" />
