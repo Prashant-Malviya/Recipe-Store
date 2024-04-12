@@ -16,7 +16,7 @@ function Search() {
     <Grid columns={2} textAlign='center' className='relative top-24'>
       <Grid.Column>
         <h1>Search Your <span className='text-blue-700'>Favourite Recipe</span> Here</h1>
-        <h4>Enter Your Favorite Recipe Here....</h4>
+        <h4 className='text-green-600'>Please Search With Ingredient Or Recipe Name....</h4>
         <Form onSubmit={onFormSubmit}>
             <Input 
                 placeholder="tomato,potato,pizza"
